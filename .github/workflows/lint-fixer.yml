@@ -9,7 +9,7 @@ jobs:
     - name: "Check out Git repository"
       uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac #v4.0.0
     - name: "Use Node.js 20"
-      uses: actions/setup-node@4
+      uses: actions/setup-node@v4
       with:
         node-version: 20
     - name: "Install CLI tools"
